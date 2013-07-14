@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.sourceforge.net/nifty-1.3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nifty-gui.sourceforge.net/nifty-1.3.xsd http://nifty-gui.sourceforge.net/nifty-1.3.xsd">
+    <useStyles filename="nifty-default-styles.xml" />
+    <useControls filename="nifty-default-controls.xml" />
+
+    <screen id="start" controller="br.com.bubble.velozeanimal.Chegada">
+        <layer childLayout="center">
+            <panel height="80%" width="80%" align="center" valign="center" childLayout="vertical">
+                <panel height="25%" width="90%" align="center" valign="center" childLayout="horizontal" backgroundColor="#6F98">
+                    <panel height="100%" width="30%" childLayout="center">
+                        <image filename="Textures/chegada/primeiro.png"/>
+                    </panel>
+                    <panel height="100%" width="70%" childLayout="center">
+                        <image id="primeiroColocado" filename="Textures/chegada/ademir.png"/>
+                    </panel>
+                </panel>
+                
+                <panel height="25%" width="90%" align="center" valign="center" childLayout="horizontal" backgroundColor="#FF98">
+                    <panel height="100%" width="30%" childLayout="center">
+                        <image filename="Textures/chegada/segundo.png"/>
+                    </panel>
+                    <panel height="100%" width="70%" childLayout="center">
+                        <image id="segundoColocado" filename="Textures/chegada/zapata.png"/>
+                    </panel>
+                </panel>
+                
+                <panel height="25%" width="90%" align="center" valign="center" childLayout="horizontal" backgroundColor="#66F8">
+                    <panel height="100%" width="30%" childLayout="center">
+                        <image filename="Textures/chegada/terceiro.png"/>
+                    </panel>
+                    <panel height="100%" width="70%" childLayout="center">
+                        <image id="terceiroColocado" filename="Textures/chegada/liminha.png"/>
+                    </panel>
+                </panel>
+                
+                <panel height="25%" width="90%" align="center" valign="center" childLayout="horizontal" backgroundColor="#C038">
+                    <panel height="100%" width="30%" childLayout="center">
+                        <image filename="Textures/chegada/quarto.png"/>
+                    </panel>
+                    <panel height="100%" width="70%" childLayout="center">
+                        <image id="quartoColocado" filename="Textures/chegada/vino.png"/>
+                    </panel>
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+</nifty>

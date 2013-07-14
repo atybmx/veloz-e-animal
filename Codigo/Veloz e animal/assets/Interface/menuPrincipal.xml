@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty>
+  <screen id="start" controller="br.com.bubble.velozeanimal.menu.Introducao">
+    <layer id="content" backgroundColor="#0000" childLayout="center">
+      <panel height="10%" width="100%" align="center" valign="center" childLayout="vertical">
+        <image filename="Textures/menu/produzido_por.png">
+            <effect>
+                <onStartScreen name="fade" mode="in" length="1000" startDelay="500" inherit="true"/>
+            </effect>
+        </image>
+         
+      </panel>
+      
+    </layer>
+  </screen>
+  
+    <screen id="menuPrincipal" controller="br.com.bubble.velozeanimal.menu.MenuPrincipal">
+    <layer id="content" backgroundColor="#ddf5ff" childLayout="vertical">
+        
+        <panel height="70%" width="100%" valign="top" childLayout="center">
+            <image filename="Textures/logo.png" width="70%" height="70%"/>
+            </panel>
+        
+        <panel height="20%" width="100%" valign="bottom" childLayout="vertical">
+            <panel height="50%" width="100%" childLayout="center">
+                <image filename="Textures/menu/jogar.png" width="25%" height="70%">
+                    <interact onClick="jogar()" />
+                </image>
+            </panel>
+            
+            <panel height="50%" width="100%" childLayout="center">
+                <image filename="Textures/menu/sobre.png" width="20%" height="70%">
+                    <interact onClick="sobre()" />
+                </image>
+            </panel>
+        </panel>
+
+        
+    </layer>
+  </screen>
+  
+  <screen id="sobre" controller="br.com.bubble.velozeanimal.menu.MenuPrincipal">
+    <layer id="content" backgroundColor="#ddf5ff" childLayout="vertical">
+      <panel height="10%"/>
+      <panel height="70%" width="80%" align="center" childLayout="center">
+          <image filename="Textures/menu/sobreDesenvolvedor.png" width="100%" height="100%"></image>
+      </panel>
+      
+      <panel height="20%" width="30%" align="center" childLayout="center" backgroundColor="#ddf5ff">
+          <image filename="Textures/menu/voltar.png" width="100%" height="100%">
+              <interact onClick="menu()" />
+          </image>
+      </panel>
+      
+    </layer>
+  </screen>
+</nifty>
