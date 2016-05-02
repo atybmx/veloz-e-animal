@@ -1,0 +1,5 @@
+Toda a documentação do projeto pode ser encontrada no link abaixo.
+
+https://drive.google.com/folderview?id=0B9rprUtTmBAFbzQ3VVN3dXpWVkk&usp=sharing
+
+Obs: O GameDoc está escrito dentro do arquivo MONOGRAFIA.pdf
